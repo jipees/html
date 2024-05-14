@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PEDIDO</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/estilo.css" type="text/css">
+</head>
+<body>
+    <header id="loga">
+        <div class="log">
+            <img src="https://i.pinimg.com/originals/50/07/65/50076597666240ca0d2a83f0120e4050.png" class="imag">
+        </div>
+    </header>
+
+    <nav id="nav">
+        <div id="menu">    
+            <div class="pag"><a href="../home/index.html">HOME</a></div>
+            <div class="pag"><a href="../menu/menu.html">MENU</a></div>
+            <div class="pag"><a href="../pedidos/pedido.html">PEDIDO</a></div>
+            <div class="pag"><a href="../como-chegar/como_chega.html">LOCAL</a></div>
+        </div>
+    </nav>
+
+    <section id="corpo">
+        <article>
+            <div>
+                <form class="form-horizontal for" method="POST">
+                    <fieldset>
+                    
+                    <!-- Form Name -->
+                    <legend><h2>faça seu pedirdo</h2></legend>
+                    
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="textinput">pedido</label>  
+                      <div class="col-md-4">
+                      <input id="textinput" name="textinput" type="text" placeholder="hamburgue,hotdog,etc..." class="form-control input-md" required="">
+                        
+                      </div>
+                    </div>
+                    
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="textinput">nome</label>  
+                      <div class="col-md-4">
+                      <input id="textinput" name="textinput" type="text" placeholder="nome" class="form-control input-md" required="">
+                        
+                      </div>
+                    </div>
+                    
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="telefone">telefone</label>  
+                      <div class="col-md-4">
+                      <input id="telefone" name="telefone" type="tel" placeholder="(**)*****-****" class="form-control input-md" required="">
+                        
+                      </div>
+                    </div>
+                    
+                    <!-- Text input-->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="end">endereço</label>  
+                      <div class="col-md-4">
+                      <input id="end" name="end" type="text" placeholder="rua...,....,...." class="form-control input-md" required="">
+                        
+                      </div>
+                    </div>
+                    
+                    <!-- Textarea -->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="pot">ponto de referencia</label>
+                      <div class="col-md-4">                     
+                        <textarea class="form-control" id="pot" name="pot"></textarea>
+                      </div>
+                    </div>
+                    
+                    <!-- Multiple Radios -->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="pg">modo de pagamento</label>
+                      <div class="col-md-4">
+                      <div class="radio">
+                        <label for="pg-0">
+                          <input type="radio" name="pg" id="pg-0" value="1 d" checked="checked">
+                          dinheiro
+                        </label>
+                        </div>
+                      <div class="radio ">
+                        <label for="pg-1">
+                          <input type="radio" name="pg" id="pg-1" value="2 c">
+                          cartao
+                        </label>
+                        </div>
+                      </div>
+                    </div>
+                    
+                    <!-- Button -->
+                    <div class="form-group">
+                      <label class="col-md-4 control-label" for="pedido">concluir</label>
+                      <div class="col-md-4">
+                        <button id="pedido" name="pedido" class="btn btn-inverse">concluir</button>
+                      </div>
+                    </div>
+                    
+                    </fieldset>
+                    </form>
+                    
+            </div>
+        </article>
+    </section>
+
+    <footer id="rodape">
+        <div class="lustracao"><img src="https://cdn-0.imagensemoldes.com.br/wp-content/uploads/2020/07/Lanche-com-Fundo-Transparente.png" alt=""></div>
+        <div class="lustracao"><img src="https://pngimage.net/wp-content/uploads/2018/06/prato-restaurante-png-4.png" alt=""></div>
+        <div class="lustracao"><img src="https://pngimage.net/wp-content/uploads/2018/06/hamburguer-no-prato-png-3.png" alt=""></div>
+        <div class="lustracao"><img src="https://pngimage.net/wp-content/uploads/2018/06/png-lanches-6.png" alt=""></div>
+    </footer>
+</body>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</html>

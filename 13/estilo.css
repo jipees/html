@@ -1,0 +1,22 @@
+body{
+    background-color: greenyellow;
+}
+#borda{
+    background-color: honeydew;
+    border: 1px solid red;
+    border-radius: 40px;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+}
+
+.sombrasimples{
+    color: black;
+    text-shadow: 1.5px 1.5px 1px rgba(85, 83, 83, 0.651);
+}
+#bordasombra{
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.582);
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}

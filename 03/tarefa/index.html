@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FEVEREIRO DE 2021</title>
+</head>
+<style>
+    table{
+        border: 8px solid grey;
+    }
+    table{
+        border-radius: 13px;
+        margin: auto;
+        height: 400pt;
+        width: 400pt;
+
+    }
+    #dias{
+        text-align: center;
+        font-size: 20pt;
+        color:white;
+        border: black;
+        background-color: tomato;
+    }
+    td{
+        text-align: center;
+        font-size: 20pt;
+        color: whitesmoke;
+        background-color: black;
+        opacity: 0.6;
+    }
+    #dom{
+        background-color: red;
+        opacity: initial;
+    }
+    #fora{
+        background-color: red;
+        opacity: 0.2;
+    }
+    #outro{
+        background-color: gray;
+        opacity: 0.2;
+    }
+    thead{
+       background-color: rgb(87, 136, 209);
+    }
+    #feriado{
+        font-size: 10pt;
+        color: black;
+        background-color: blanchedalmond;
+    }
+    
+</style>
+
+<body>
+
+    <table>
+
+        <thead>
+
+            <tr>
+                <th colspan="7", style="color: oldlace; font-family: Verdana, Geneva, Tahoma, sans-serif; font-size: 18pt;">Fevereiro &nbsp;2021</th>
+            </tr>
+
+            <tr id="dias">
+
+                <th>DOM</th>
+                <th>SEG</th>
+                <th>TER</th>
+                <th>QUA</th>
+                <th>QUI</th>
+                <th>SEX</th>
+                <th>SÁB</th>
+
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <td id="fora">31</td>
+                <td>01</td>
+                <td>02</td>
+                <td>03</td>
+                <td>04</td>
+                <td>05</td>
+                <td>06</td>
+            </tr>
+
+            <tr>
+                <td id="dom">7</td>
+                <td>08</td>
+                <td>09</td>
+                <td>10</td>
+                <td>11</td>
+                <td style="color: orangered;">12</td>
+                <td style="color: orangered;">13</td>
+            </tr>
+
+            <tr>
+                <td id="dom", style="color: black;">14</td>
+                <td style="color: orangered;">15</td>
+                <td style="color: orangered;">16</td>
+                <td style="color: orangered;">17</td>
+                <td>18</td>
+                <td>19</td>
+                <td>20</td>
+            </tr>
+            
+            <tr>
+                <td id="dom">21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td>25</td>
+                <td>26</td>
+                <td>27</td>
+            </tr>
+
+            <tr">
+                <td id="dom">28</td>
+                <td id="outro">01</td>
+                <td id="outro">02</td>
+                <td id="outro">03</td>
+                <td id="outro">04</td>
+                <td id="outro">05</td>
+                <td id="outro">06</td>
+            </tr>
+
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="7", id="feriado">12,13,14,15,16, Carnaval</td>
+            </tr>
+            <tr>
+                <td colspan="7", id="feriado">17 quarta-feira de cinzas</td>
+            </tr>
+
+        </tfoot>
+    </table>
+
+    
+</body>
+</html>

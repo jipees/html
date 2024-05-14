@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIV</title>
+</head>
+<style>
+    .total{
+        width: 700px;
+        margin: 0 auto;
+    }
+    #topo{
+        width: 700px;
+        height: 100px;
+        background-color: blueviolet;
+    }
+    #corpo{
+        width: 700px;
+        height: 350px;
+    }
+    #canto_esquerdo{
+        width: 250px;
+        height: 100%;
+        background-color: grey;
+        float: left;
+    }
+    #canto_direito{
+        width: 450px;
+        height: 100%;
+        background-color: hotpink;
+        float: left;
+    }
+    .cd{
+        width:33.3%;
+        height: 100%;
+        background-color: gold;
+        float: left;
+    }
+    .cb{
+        width:33.3%;
+        height: 100%;
+        background-color: rgb(119, 184, 34);
+        float: left;
+    }
+    #rodape{
+        width: 700px;
+        height: 75px;
+        background-color: indigo;
+    }
+    .quadro1{
+        width: 450px;
+        height: 50%;
+        background-color: cadetblue;
+    }
+    .quadro2{
+        width: 450px;
+        height: 50%;
+        background-color: cyan;
+    }
+
+</style>
+<body>
+    <div class="total">
+        <div id="topo">
+            topo
+        </div>
+        <div id="corpo">
+            <div id="canto_esquerdo">
+                lateral
+            </div>
+            
+            <div id="canto_direito">
+                <div class="quadro1">
+                    <div class="cd"></div>
+                    <div class="cb"></div>
+                    <div class="cd"></div>
+                </div>
+                <div class="quadro2">
+                    <div class="cb"></div>
+                    <div class="cd"></div>
+                    <div class="cb"></div>
+                </div>
+            </div>
+        </div>
+        <div id="rodape">
+            rodape
+        </div>
+    </div>
+</body>
+</html>

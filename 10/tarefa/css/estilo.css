@@ -1,0 +1,157 @@
+/**navbartop**/
+body{
+    margin: 0;
+}
+
+.Navbartop {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .cor {
+    float: left;
+    border-right:1px solid #bbb;
+    background-color: rgb(155, 13, 136);
+  }
+  
+  .cor:last-child {
+    border-right: none;
+  }
+  
+  .cor a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .cor a:hover:not(.active) {
+      background-color: #4CAF50;
+  }
+  
+  .active a:hover {
+    background-color:rgb(155, 13, 136);
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+
+/**navbar1**/
+.Navbar1 {
+    list-style-type: none;
+    margin: 0;
+    margin-top: 10%;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(155, 13, 136);
+    border-radius: 10px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .barraop {
+    display: inline-block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .barraop {
+    background-color: rgba(233, 236, 14, 0.712);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #65eb65d0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: rgb(136, 9, 168);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /**Navbar2**/
+
+        #menu {
+            margin-top: 10%;
+        }
+
+		#menu ul {
+			padding:0px;
+			margin:0px;
+			float: left;
+			width: 100%;
+			background-color:#EDEDED;
+			list-style:none;
+			font:80% Tahoma;
+		}
+ 
+		#menu ul li { display: inline; }
+ 
+		#menu ul li a {
+			background-color:#EDEDED;
+			color: #333;
+			text-decoration: none;
+			border-bottom:3px solid #EDEDED;
+			padding: 2px 10px;
+			float:left;
+		}
+ 
+		#menu ul li a:hover {
+			background-color:#D6D6D6;
+			color: #6D6D6D;
+			border-bottom:3px solid #EA0000;
+		}
+
+/****/        
+
+#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(24, 87, 170);
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 1;
+  }
+  
+
+  
+  .active2 {
+    background-color: #ce1019;
+  }
+
+  .header{
+      width: 100%;
+      margin-top: 10%;
+  }
+	

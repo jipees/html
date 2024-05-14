@@ -1,0 +1,16 @@
+a{
+    color: chocolate;
+    text-decoration: none;
+}
+a:hover{
+    color: crimson;
+}
+body{
+    background-color: rgb(190, 148, 97);
+}
+
+
+a:active{
+    color: red;
+    background-color: black;
+}

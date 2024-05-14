@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    h2{ /*abro chaves para abrir um bloco de comando*/
+        font-size: 20pt;
+        color: chartreuse;
+        text-decoration: underline;
+    }
+
+    #loja1{
+        border: 1px solid red;
+    }
+    #loja1 th{
+        border: 1px solid black;
+        background-color: lightgray;
+    }
+    td{
+        border: 1px solid blue;
+        background-color: darkcyan;
+    }
+
+    th{
+        color: white;
+        background-color: black;
+        font-weight: bolder;
+    }
+
+    .dinheiro{
+        color: green;
+        background-color: lightcoral;
+    }
+
+    p{
+        font-size: 12pt ;
+        color: ivory;
+        background-color: darkgray;
+    }
+
+    li{
+        font-size: 10pt;
+        color: gray;
+    }
+</style>
+<body>
+    <h2>Tabelas com celula mesclada</h2>
+
+    <table id="loja1">
+        <thead>
+            <tr>
+                <th colspan="3">loja de instrumentos</th>
+            </tr>
+            <tr>
+                <th>instrumento</th>
+                <th>tipo</th>
+                <th>preços</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>violão</td>
+                <td>cordas</td>
+                <td class="dinheiro">R$ 2,500,00</td>
+            </tr>
+            <tr>
+                <td>bateria</td>
+                <td>percuçao</td>
+                <td class="dinheiro">R$ 7,500,00</td>
+            </tr>
+            <tr>
+                <td>piano</td>
+                <td>percuçao</td>
+                <td class="dinheiro">R$ 10,500,00</td>
+            </tr>
+            <tr>
+                <td>baixo</td>
+                <td>cordas</td>
+                <td class="dinheiro">R$4,400,00</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">total em estoque</th>
+                <td class="dinheiro">R$ 24.300,00</td>
+            </tr>
+
+        </tfoot>
+    </table>
+    <table>
+
+        <thead>
+
+            <tr>
+
+                <th colspan="3">Loja de Instrumentos</th>
+
+            </tr>
+
+            <tr>
+
+                <th>Tipo</th>
+
+                <th>Instrumento</th>
+
+                <th>Preço</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td rowspan="2">Cordas</td>
+
+                <td>Violão</td>
+
+                <td class="dinheiro">R$ 2.500,00</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Baixo</td>
+
+                <td class="dinheiro">R$ 4.800,00</td>
+
+            </tr>
+
+            <tr>
+
+                <td rowspan="2">Percurssão</td>
+
+                <td>Bateria</td>
+
+                <td class="dinheiro">R$ 7.500,00</td>
+
+            </tr>
+
+            <tr>
+
+                <td>Piano</td>
+
+                <td class="dinheiro">R$ 10.500,00</td>
+
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+
+            <tr>
+
+                <th colspan="2">Total em estoque</th>
+
+                <td class="dinheiro">R$ 25.300,00</td>
+
+            </tr>
+
+        </tfoot>
+
+    </table>
+    <hr>
+    <p>
+        dentro da <b>tabela</b>, as celulas tem as <strong>propriedades</strong> </br>
+        <!-- tag b (bold) estou em desuso. ficau legado ao html4-->
+        que <i>definem</i> a <U>ocupação de linha e coluna</U>. sendo:
+        <!-- u (underline), sublinhado-->
+    </p>
+
+    <ul><!-- ul (unnumartd list), lista nao numera ou marcada-->
+        <li><!-- li (list inte), cada intem de uma lista-->
+            colspan -> define quantas colunas  celula ira oculpa
+        </li>
+        <li>
+            colspan -> define quantas colunas  celula ira oculpa
+        </li>
+
+    </ul>
+
+    <p>
+        lista numerada
+    </p>
+
+    <ol><!--ol (organized list), lista numerada-->
+        <li>intem da lista</li>
+        <li>segunda</li>
+        <li>terceira</li>
+
+    </ol>
+
+    <h3>css - cscade style sheet</h3>
+    <p>
+        o css, ou folh de estilo em cascata, e usado para formatar <strong>itens</strong> de um documento, ele pode ser aplicado de duas formas:
+        <ol>
+            <li>
+                inline -> usado como propriedade do elemento html.
+            </li>
+            <li>
+                por referencia -/.dentro de uma folha de estilo
+            </li>
+        </ol>
+    </p>
+    <p style="color: red; font-family: Verdana; font-size: 14pt;">
+    Formatação relizada inline. &nbsp;;ou seja, diferentamente no elemento html&reg;.
+    <!--&nbsp; insere um espço vazio
+    &reg; simbolo de marcar registrada-->
+    </p>
+</body>
+</html>

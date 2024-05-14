@@ -1,0 +1,19 @@
+body{
+    background-color: grey;
+}
+#divForm{
+    margin: auto;
+    width: 900px;
+    background-color: white;
+    color: darkgray;
+}
+.label{
+    width: 150px;
+    margin-left: 150px;
+    float: left;
+}
+.input{
+    margin-right:200px ;
+    float: left;
+
+}

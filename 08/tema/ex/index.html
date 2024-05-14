@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+    <div>
+        <form class="form-horizontal">
+            <fieldset>
+            
+            <!-- Form Name -->
+            <legend>Form Name</legend>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="name">nome</label>  
+              <div class="col-md-4">
+              <input id="name" name="name" type="text" placeholder="name" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="email">email</label>  
+              <div class="col-md-4">
+              <input id="email" name="email" type="email" placeholder="email" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="datan">data de nascimento</label>  
+              <div class="col-md-4">
+              <input id="datan" name="datan" type="date" placeholder="00/00/0000" class="form-control input-md" required="">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="telefone">telefone</label>  
+              <div class="col-md-4">
+              <input id="telefone" name="telefone" type="tel" placeholder="telefone" class="form-control input-md">
+                
+              </div>
+            </div>
+            
+            <!-- Text input-->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="endereço">end</label>  
+              <div class="col-md-4">
+              <input id="endereço" name="endereço" type="text" placeholder="end" class="form-control input-md">
+                
+              </div>
+            </div>
+            
+            <!-- Multiple Checkboxes (inline) -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="turma">turma</label>
+              <div class="col-md-4">
+                <label class="checkbox-inline" for="turma-0">
+                  <input type="checkbox" name="turma" id="turma-0" value="m">
+                  manha
+                </label>
+                <label class="checkbox-inline" for="turma-1">
+                  <input type="checkbox" name="turma" id="turma-1" value="t">
+                  tarde
+                </label>
+                <label class="checkbox-inline" for="turma-2">
+                  <input type="checkbox" name="turma" id="turma-2" value="n">
+                  noite
+                </label>
+              </div>
+            </div>
+            
+            <!-- Multiple Radios (inline) -->
+            <div class="form-group">
+              <label class="col-md-4 control-label" for="genero">sexo</label>
+              <div class="col-md-4"> 
+                <label class="radio-inline" for="genero-0">
+                  <input type="radio" name="genero" id="genero-0" value="m" checked="checked">
+                  masculino
+                </label> 
+                <label class="radio-inline" for="genero-1">
+                  <input type="radio" name="genero" id="genero-1" value="f">
+                  feminino
+                </label> 
+                <label class="radio-inline" for="genero-2">
+                  <input type="radio" name="genero" id="genero-2" value="o">
+                  outros
+                </label>
+              </div>
+            </div>
+            <!-- Button -->
+            <div class="form-group">
+            <label class="col-md-4 control-label" for="enviar">enviar</label>
+            <div class="col-md-4">
+                <button id="enviar" name="enviar" class="btn btn-primary">enviar</button>
+            </div>
+            </div>
+                        
+            </fieldset>
+            </form>
+            
+    </div>
+</body>
+</html>

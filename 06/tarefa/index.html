@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>buraco negro</title>
+</head>
+<style>
+    #topo{
+        width: 100%;
+        height: 95px;
+        background-color: rgba(0, 0, 0, 0.87);
+        color: white;
+        font-family: monospace;
+    }
+    #nav{
+        width: 100%;
+        height: 110px;
+        background-color: rgba(238, 130, 238, 0.363);
+        margin-top: 5px;
+        
+    }
+    #navpr{
+        width: 80%;
+        height: 100%;
+        margin: auto;
+    }
+    .nav{
+        width: 10.1%;
+        height: 90%;
+        float: left;
+        margin: 5px;
+        background-color: white;
+    }
+    .img{
+        width: 100%;
+        height: 100%;
+    }
+    #corpo{
+        width: 100%;
+        height: 470px;
+        background-color: rgba(172, 255, 47, 0.452);
+        margin-top: 10px;
+    }
+    #direita, #esquerda{
+        width: 15%;
+        height: 100%;
+        background-color: white;
+        float: left;
+
+    }
+    #conteudo{
+        width: 70%;
+        height: 100%;
+        float: left;
+    }
+    #texto{
+        width: 80%;
+        height: 40%;
+        margin: auto;
+    }
+    
+    #video{
+        width: 40%;
+        height: 40%;
+        margin: 5% auto;
+    }
+
+    #rodape{
+        width: 100%;
+        height: 80px;
+        background-color: azure;
+    }
+    #fonte{
+     text-align: center;
+    }
+
+
+</style>
+<body>
+    <header id="topo">
+        <h2>BURACO NEGRO</h2>
+        
+    </header>
+    <nav id="nav">
+        <header id="navpr">
+            <article class="nav"><img class="img" src="https://i2.wp.com/www.deviante.com.br/wp-content/uploads/2017/12/BlackHole.png?fit=1000%2C350"></article>
+            <article class="nav"><img class="img" src="data:image/jpeg;base64,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"></article>
+            <article class="nav"><img class="img" src="https://www.inovacaotecnologica.com.br/noticias/imagens/020130200929-filme-buraco-negro.gif"></article>
+            <article class="nav"><img class="img" src="https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2019/09/Black-Hole-800x450.jpg"></article>
+            <article class="nav"><img class="img" src="data:image/jpeg;base64,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"></article>
+            <article class="nav"><img class="img" src="https://www.revistaplaneta.com.br/wp-content/uploads/sites/3/2019/07/estrela_buraco_negro.jpg"></article>
+            <article class="nav"><img class="img" src="https://arc-anglerfish-eu-central-1-prod-prisa.s3.amazonaws.com/public/CTLGVYLWSVNDVLPGPQVKT745IU.jpg"></article>
+            <article class="nav"><img class="img" src="https://ichef.bbci.co.uk/news/640/cpsprodpb/119B6/production/_114781127_bh_visualization.jpg"></article>
+            <article class="nav"><img class="img" src="https://www.diariodepernambuco.com.br/static/app/noticia_127983242361/2019/11/27/812064/20191127221716458206o.jpg"></article>
+        </header>
+    </nav>
+    <div id="corpo">
+        <aside id="esquerda"></aside>
+        <section id="conteudo">
+            <article id="texto">
+                <header>
+                    <h4>Buraco negro</h4>
+                </header>
+                <p>
+                    Buraco negro é uma região do espaço-tempo em que o campo gravitacional é tão intenso que nada — nenhuma partícula ou radiação eletromagnética como a luz — pode escapar dela. A teoria da relatividade geral prevê que uma massa suficientemente compacta pode deformar o espaço-tempo para formar um buraco negro. O limite da região da qual não é possível escapar é chamado de horizonte de eventos. Embora o horizonte de eventos tenha um efeito enorme sobre o destino e as circunstâncias de um objeto que o atravessa, não tem nenhuma característica local detectável. De muitas maneiras, um buraco negro age como um corpo negro ideal, pois não reflete luz. Além disso, a teoria quântica de campos no espaço-tempo curvo prevê que os horizontes de eventos emitem radiação Hawking, com o mesmo espectro que um corpo negro de temperatura inversamente proporcional à sua massa. Essa temperatura é da ordem dos bilionésimos de um kelvin para buracos negros de massa estelar, o que a torna praticamente impossível de observar.
+                </p>
+            </article>
+            <article id="video"><iframe width="100%" height="100%" src="https://www.youtube.com/embed/GbJJRsS6OR4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></article>
+        </section>
+        <aside id="direita"></aside>
+    </div>
+    <footer id="rodape">
+        <p id="fonte">
+            Fontes. <a href="https://pt.wikipedia.org/wiki/Buraco_negro#:~:text=Buraco%20negro%20%C3%A9%20uma%20regi%C3%A3o,para%20formar%20um%20buraco%20negro." target="blank"> Wikipédia</a> ,
+            <a href="https://youtu.be/GbJJRsS6OR4" target="blank"> youtube</a>
+        </p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulários</title>
+    <link rel="stylesheet" href="css/estilo.css" type="text/css">
+</head>
+<body>
+    <div id="divForm">
+        <form method="POST">
+            <div>
+                <div class="label">
+                    <label for="nomeAluno">nome: </label>
+                    </div>
+
+                <div class="input">
+                    <input name="nomeAluno" type="text"  maxlength="50" placeholder="nome comleto" required/>
+                </div>
+            </div>
+            <div>
+                <div class="label">
+                    <label for="celular">telefone: </label>
+                </div>
+                <div class="input">
+                    <input type="tel" name="celular" maxlength="14" value="(00) 0000-00000"/>
+                </div>
+            </div>
+            <div>
+                <div class="label">
+                    <label for="emailcorporativo">email: </label>
+                </div>
+                <div class="input">
+                    <input type="email" name="emailcorporativo" required/>
+                </div>
+            </div>
+            <div>
+                <div class="label">
+                    <label for="senhaUsuaario">senha: </label>
+                </div>
+                <div class="input">
+                    <input type="password" name="senhaUsuario" maxlength="8" required/>
+                </div>
+            </div>
+            <div>
+                <div class="label">
+                    <label for="end">endereço: </label>
+                </div>
+                <div class="input">
+                    <input type="text" size="2" name="end" maxlength="2" placeholder="endereço completo: rua, numero, complemeto, barrio, municipio, estado, pais"/>
+                </div>
+            </div>
+            
+            <div style="clear: both;">
+                <button type="submit">enviar cadastro</button>
+            </br>
+                <button type="reset">Limpar formulrio</button>
+            </div>
+            
+            
+        </form>
+
+    </div>
+</body>
+</html>
